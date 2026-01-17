@@ -475,6 +475,10 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-social-link svg {
+  fill: #f4f4fd;
+}
+
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
@@ -678,8 +682,6 @@ img {
 .form-checkbox {
   display: flex;
   align-items: center;
-  margin-top: 16px;
-  margin-bottom: 24px;
 }
 
 .policy {
@@ -696,13 +698,14 @@ img {
   color: #8e8f99;
   display: flex;
   align-items: center;
+  margin-top: 8px;
   gap: 8px;
 }
 
 .checkbox-custom {
   width: 16px;
   height: 16px;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   display: flex;
   align-items: center;
